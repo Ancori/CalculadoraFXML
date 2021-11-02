@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane fx:id="vista" maxHeight="1.7976931348623157E308" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane fx:id="vista" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TextField fx:id="operacion" alignment="CENTER_RIGHT" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" GridPane.columnSpan="5" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
          <GridPane.margin>
@@ -105,11 +105,11 @@
       </Button>
    </children>
    <columnConstraints>
-      <ColumnConstraints maxWidth="82.0" minWidth="40.0" prefWidth="78.0" />
-      <ColumnConstraints maxWidth="100.0" minWidth="10.0" prefWidth="70.0" />
-      <ColumnConstraints maxWidth="87.0" minWidth="10.0" prefWidth="70.0" />
-      <ColumnConstraints maxWidth="101.0" minWidth="10.0" prefWidth="77.0" />
-      <ColumnConstraints maxWidth="112.0" minWidth="-Infinity" prefWidth="99.0" />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="40.0" prefWidth="78.0" />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="77.0" />
+      <ColumnConstraints maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="99.0" />
    </columnConstraints>
    <rowConstraints>
       <RowConstraints />
