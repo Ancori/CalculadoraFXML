@@ -1,0 +1,72 @@
+.root {
+	-fx-font-family: monospace;
+	-fx-background-color: #333333;
+	-fx-hgap: 1px;
+    -fx-vgap: 1px;
+}
+
+.text-field {
+	-fx-background-color: transparent;
+	-fx-text-fill: #D3D3D3;
+	-fx-font-size: 25pt;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER-RIGHT;
+    -fx-padding: 10 10 10 10;
+    -fx-background-insets: 0 0 0 0;
+}
+
+.button{
+	-fx-font-size: 16pt;
+	-fx-background-radius: 0px;
+	-fx-background-insets: 0 0 0 0;
+}
+#b0,#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#bcoma{
+	-fx-text-fill: white;
+	-fx-background-color:#A9A9A9;
+}
+.button:focused{
+	-fx-border-color:white;
+}
+.button:armed {
+	-fx-background-color: yellow;
+}
+.button:hover {
+	-fx-text-fill: #333333;
+	-fx-background-color: white;
+}
+.button:hover:pressed {
+	-fx-text-fill: #D3D3D3;
+	-fx-background-color: black;
+}
+
+#bce,#bc {
+	-fx-text-fill:black;
+	
+}
+#bce:hover,#bc:hover {
+	-fx-background-color: white;
+}
+#bce:pressed,#bc:pressed {
+	-fx-text-fill: #D3D3D3;
+	-fx-background-color: black;
+}
+
+#bsumar,#brestar,#bmultiplicar,#bdivision {
+	-fx-text-fill:white;
+	-fx-background-color: orange;
+}
+
+#bsumar:hover,#brestar:hover,#bmultiplicar:hover,#bdivision:hover {
+	-fx-background-color:#FF8C00;
+}
+
+.button:hover:default{
+	-fx-background-color:red;
+}
+#bsumar:pressed,#brestar:pressed,#bmultiplicar:pressed,#bdivision:pressed {
+	-fx-text-fill:orange;
+	-fx-background-color:white;
+}
+.button:default{
+	-fx-background-color:orangered;
+}
