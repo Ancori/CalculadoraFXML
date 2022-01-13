@@ -85,6 +85,7 @@ public class Controlador implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		operacion.textProperty().bind(modelo.resultadoProperty());
 		modelo.setResultado(calc.getPantalla());
+		
 	}
 
 	@FXML
