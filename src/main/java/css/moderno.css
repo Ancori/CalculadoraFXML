@@ -1,0 +1,74 @@
+.root {
+	-fx-font-family: monospace;
+	-fx-background-color: black;
+	-fx-hgap: 5px;
+    -fx-vgap: 5px;
+    -fx-padding:5 5 5 5;
+}
+
+.text-field {
+	-fx-background-color: transparent;
+	-fx-text-fill: #D3D3D3;
+	-fx-font-size: 25pt;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER-RIGHT;
+    -fx-padding: 10 10 10 10;
+    -fx-background-insets: 0 0 0 0;
+}
+
+.button{
+	-fx-font-size: 16pt;
+	-fx-background-radius: 5em;
+	-fx-background-insets: 0 0 0 0;
+	-fx-border-radius: 5em;
+}
+#b0,#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#bcoma{
+	-fx-text-fill: white;
+	-fx-background-color:#A9A9A9;
+}
+#b0:hover,#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover,#b6:hover,#b7:hover,#b8:hover,#b9:hover,#bcoma:hover{
+	-fx-text-fill: #A9A9A9;
+	-fx-background-color:white;
+}
+#b0:pressed,#b1:pressed,#b2:pressed,#b3:pressed,#b4:pressed,#b5::pressed,#b6:pressed,#b7:pressed,#b8:pressed,#b9:pressed,#bcoma:pressed{
+	-fx-text-fill: #D3D3D3;
+	-fx-background-color:black;
+}
+.button:focused{
+	-fx-border-color:white;
+}
+.button:armed {
+	-fx-background-color: yellow;
+}
+#bce,#bc {
+	-fx-text-fill:black;
+	-fx-background-color:#D3D3D3;
+	
+}
+#bce:hover,#bc:hover {
+	-fx-background-color: white;
+}
+#bce:pressed,#bc:pressed {
+	-fx-text-fill: #D3D3D3;
+	-fx-background-color: black;
+}
+
+#bsumar,#brestar,#bmultiplicar,#bdivision {
+	-fx-text-fill:white;
+	-fx-background-color: orange;
+}
+
+#bsumar:hover,#brestar:hover,#bmultiplicar:hover,#bdivision:hover {
+	-fx-background-color:#FF8C00;
+}
+
+.button:hover:default{
+	-fx-background-color:red;
+}
+#bsumar:pressed,#brestar:pressed,#bmultiplicar:pressed,#bdivision:pressed {
+	-fx-text-fill:orange;
+	-fx-background-color:white;
+}
+.button:default{
+	-fx-background-color:orangered;
+}

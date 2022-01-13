@@ -9,9 +9,7 @@ public class App extends Application {
 
 	public void start(Stage primaryStage) throws Exception {
 		controller = new Controlador();
-
 		Scene scene = new Scene(controller.getVista());
-
 		primaryStage.setTitle("Calculadora FXML");
 		primaryStage.setScene(scene);
 		primaryStage.show();

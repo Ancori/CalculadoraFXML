@@ -8,6 +8,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.ContextMenu;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 
@@ -85,6 +87,22 @@ public class Controlador implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		operacion.textProperty().bind(modelo.resultadoProperty());
 		modelo.setResultado(calc.getPantalla());
+		MenuItem clasicoItem=new MenuItem("Clasico");
+		clasicoItem.setOnAction(e->{
+			vista.getStylesheets().clear();
+			vista.getStylesheets().add(getClass().getResource("../../css/estilo.css").toExternalForm());
+		});
+		MenuItem modernoItem=new MenuItem("Moderno");
+		modernoItem.setOnAction(e->{
+			vista.getStylesheets().clear();
+			vista.getStylesheets().add(getClass().getResource("../../css/moderno.css").toExternalForm());
+			
+		});
+		ContextMenu menu=new ContextMenu(clasicoItem,modernoItem);
+		vista.setOnContextMenuRequested(e->{
+			menu.show(vista,e.getScreenX(),e.getScreenY());
+		});
+		
 		
 	}
 
